@@ -26,7 +26,6 @@ class SCPIParser():
              }
             func=cmd_switch.get(args[0])
             return func(args[1])
-
                 
     def start(self):
         # Start the AWG
